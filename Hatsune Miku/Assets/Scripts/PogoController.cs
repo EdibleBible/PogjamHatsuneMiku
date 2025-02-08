@@ -9,7 +9,6 @@ public class PogoController : MonoBehaviour
     public float pogoForce = 15f;         // Base bounce force
 
     private Rigidbody rb;
-    private bool isCompressing = false;
 
     void Start()
     {
