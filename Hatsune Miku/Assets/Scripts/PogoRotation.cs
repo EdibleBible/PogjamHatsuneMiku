@@ -9,7 +9,7 @@ public class PogoRotation : MonoBehaviour
     private void Update()
     {
         HandleRotation();
-        AutoBalance();
+        //AutoBalance();
     }
 
     void HandleRotation()
