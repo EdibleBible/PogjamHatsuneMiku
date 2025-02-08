@@ -14,6 +14,10 @@ public class PogoRotation : MonoBehaviour
     {
         HandleRotation();
         //AutoBalance();
+        if (transform.rotation.z > 90)
+        {
+            transform.rotation = new Quaternion(transform.rotation.w, transform.rotation.x, transform.rotation.y, 90);
+        }
     }
 
     void HandleRotation()
