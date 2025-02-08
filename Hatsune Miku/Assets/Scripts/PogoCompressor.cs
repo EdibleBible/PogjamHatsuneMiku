@@ -8,8 +8,8 @@ public class PogoCompressor : MonoBehaviour
     public float compressionDuration = 0.2f; // Duration of the compression animation
     public float releaseDuration = 0.1f; // Duration of the release animation
     public float pogoForce = 15f;
-    public bool isGrounded;
-    public Collider groundCollider;
+    //public bool isGrounded;
+    //public Collider groundCollider;
 
     private Rigidbody rb;
     private Vector3 originalScale;
@@ -18,7 +18,7 @@ public class PogoCompressor : MonoBehaviour
     {
         if (other.CompareTag("PogoSurface"))
         {
-            isGrounded = true;
+            //isGrounded = true;
         }
     }
 

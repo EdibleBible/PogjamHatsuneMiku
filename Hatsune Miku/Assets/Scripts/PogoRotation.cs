@@ -6,6 +6,10 @@ public class PogoRotation : MonoBehaviour
     public float correctionSpeed = 5f;           // Speed to correct back to upright
     public float maxRotationAngle = 45f;         // Optional limit for max rotation
 
+    private void Start()
+    {
+    }
+
     private void Update()
     {
         HandleRotation();
